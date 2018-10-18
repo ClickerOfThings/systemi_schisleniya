@@ -65,7 +65,7 @@ def vosemTo16(num):
     error = "error"
     noerror = "noerror"
     for x in num:
-        if (x in """89.,;:?!*+=- !@#$%^&*()_+-=~`[]йцукенгшщзхъфывапролджэячсмитьбюqwertyuiopasdfghjkl;zxcvbnm,./\\
+        if (x in """.,;:?!*+=- !@#$%^&*()_+-=~`[]йцукенгшщзхъфывапролджэячсмитьбюqwertyuiopasdfghjkl;zxcvbnm,./\\
             ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮQWERTYUIOPASDFGHJKLZXCVBNM"""):
             # как мне еще проверять наличие символов /\/\ ? внезапный ерор никому не нужен
             return error
